@@ -1,0 +1,65 @@
+.menu{
+    display:flex;
+    justify-content:space-between;
+    color: darkblue;
+}
+
+.text a:link{
+    color: darkblue;
+  }
+  
+.text a:visited {
+    color: darkgreen;
+  }
+  
+.text a:active {
+    color: yellow;
+    background-color: yellowgreen;
+    text-decoration: underline;
+  }
+
+.Origami_Designs{
+    color: purple;
+}
+
+.grid{
+    margin:20%;
+}
+
+.grid img{
+    border:2px solid black;
+    border-radius:50px;
+}
+
+.origami{
+    border-radius:10px;
+    background-color:gray;
+
+    width:310 px;
+    font-family:fantasy;
+}
+
+.origami:hover{
+    transform:scale(1.2);
+}
+
+body{
+    background-color:gray;
+}
+
+.bodyimg{
+    position:relative;
+}
+
+.bodyimg h3{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+.bodyimg h4{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
